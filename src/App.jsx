@@ -13,12 +13,13 @@ export default function App(){
       <Header />
     </header>
     <main>
+   
       <MainContent />
       
     </main>
 
     <footer>
-      <AddItem/>
+      
     </footer>
   
   </Fragment>)

@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+.header{
+    background-color: rgb(13, 112, 241);
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+
+    width: 100%;
+    height: 10%;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 40px ;
+    margin-left: 2%;
+}
+
+.expenses>ul{
+    display: flex;
+    
+}
+.expenses>ul>li{
+    margin: 20px 40px;
+}
+
+
+/* MainContent */
+
+.main--content{
+    background-color: aliceblue;
+    height: 100%;
+
+}
+
+.clear--btn{
+    color: red;
+    margin-left: 90%;
+    margin-top: 30%;
+}
+
+/* ListItem */
+.list--item{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.delete--btn{
+    border: 1px solid black;
+    
+    color: red;
+}
+
+/* AddItem */
+.input--field{
+    width:50%;
+    height: 40px;
+   margin: 50px;
+
+}
+
+.add--btn{
+    color: blue;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 50px;
+}
